@@ -17,6 +17,11 @@
 	font-weight: bold;
 }
 
+.jumbotron h2{
+	color:#fff;
+	font-weight: italic;
+}
+
 .nav li{
 	display: inline;
 }
