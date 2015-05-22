@@ -1,13 +1,11 @@
 .jumbotron {
+	 padding: 30px 15px;
+  margin-bottom: 30px;
+  color: inherit;
+  background-color: #f9f9f9;
+  text-align: center;
+  background-size: cover;
 	background-image: url('http://www.disneytouristblog.com/wp-content/uploads/2012/04/DSC_8368-copy.jpg');
-}
-
-/*.widewrapper {
-  width:100%;
-  }
-
-.widewrapper > img {
-  width:100%;
 }
 
 .jumbotron h1{
@@ -18,4 +16,4 @@
 
 .nav li{
 	display: inline;
-}*/
+}
