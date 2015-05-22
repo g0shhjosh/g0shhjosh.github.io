@@ -1,12 +1,10 @@
 .jumbotron {
 	background-image: url('http://www.disneytouristblog.com/wp-content/uploads/2012/04/DSC_8368-copy.jpg');
 }
-.widewrapper {
-  width:100%;
-  }
-
-.widewrapper > img {
-  width:100%;
+#feature {
+background-size:auto!important;
+background-repeat:no-repeat;
+background-position: center top;
 }
 .jumbotron h1{
 	color:#fff;
