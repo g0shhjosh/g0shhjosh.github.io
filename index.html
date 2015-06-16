@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
   
   <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css"/>
@@ -13,6 +14,25 @@
 
   <link rel = "stylesheet" href = "http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css"/>
   <link href = "main.css" rel = "stylesheet"/>
+  
+  <script>
+    function centerVideo() {
+      var $wrapper = $('.video-wrapper');
+      var $video = $wrapper.find('video');
+      $video.css('top', ($wrapper.height()-$video.height())*0.5);
+      $video.css('left', ($wrapper.width()-$video.width())*0.5);
+    }
+
+$(window).resize(centerVideo);
+
+$(function(){
+  $('.video-wrapper video').on('loadeddata', function() {
+    centerVideo();
+  });
+  
+});
+  </script>
+  
 </head>
 <body>
 
